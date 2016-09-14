@@ -1,0 +1,45 @@
+{
+  "manifest_code": 2,
+  "updates_code": 2,
+  "additions_code": 2,
+  "manifest": {
+    "version": "1.0.0",
+    "bundles": [
+      {
+        "uri": "main",
+        "pkg": "com.example.mysmall.app.main"
+      },
+      {
+        "uri": "gcstorage",
+        "pkg": "com.example.mysmall.app.gcstorage",
+        "rules": {
+          "two": ".Two"
+        }
+      },
+      {
+        "uri": "base",
+        "pkg": "com.example.mysmall.lib.base"
+      },
+      {
+        "uri": "style",
+        "pkg": "com.example.mysmall.lib.style"
+      },
+      {
+        "uri": "pulgin1",
+        "pkg": "com.example.mysmall.app.pulgin1"
+      }
+    ]
+  },
+  "updates": [
+    {
+      "pkg": "com.example.mysmall.app.main",
+      "url": "http://192.168.2.152:3000/d/libcom_example_mysmall_app_main.so"
+    }
+  ],
+  "additions": [
+    {
+      "pkg": "com.example.mysmall.app.pulgin1",
+      "url": "http://192.168.2.152:3000/d/libcom_example_mysmall_app_pulgin1.so"
+    }
+  ]
+}

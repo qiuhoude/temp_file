@@ -1,0 +1,25 @@
+{
+  "manifest_code": 0,
+  "updates_code": 1,
+  "additions_code": 0,
+  "manifest": {
+    "version": "1.0.0",
+    "bundles": [
+      {
+        "uri": "main",
+        "pkg": "com.gcstorage.app.main"
+      }, 
+      {
+        "uri": "third",
+        "pkg": "com.gcstorage.lib.third"
+      }
+    ]
+  },
+  "updates": [
+    {
+      "pkg": "com.gcstorage.app.main",
+      "url": "http://192.168.2.10:3000/static/libcom_gcstorage_app_main.so"
+    }
+  ],
+  "additions": []
+}

@@ -1,0 +1,9 @@
+
+TB_url=https://api.opentok.com/session/create
+headerstr="X-TB-PARTNER-AUTH: API_KEY:API_SECRET"
+
+curl -X POST -H "X-TB-PARTNER-AUTH: 45626552:1eaf209ee03eb3d51ecc116cc2dff0d8fc2a76b3" -H "Accept:application/json"  https://api.opentok.com/session/create
+
+
+
+[{"session_id":"2_MX40NTYyNjU1Mn5-MTQ2OTQ0MDc3NTQ5NX5NR3U0bDh3WGYxN04rYkt3ZFU0UGVsU3J-fg","project_id":"45626552","partner_id":"45626552","create_dt":"Mon Jul 25 02:59:35 PDT 2016","media_server_url":""}]
